@@ -8,7 +8,9 @@ import java.util.Optional;
 public interface MemberRepository {
     Member save(Member member); //DB에 저장
 
-    Optional<Member> findById(String id); //ID 데이터 조회
+    Optional<Member> findById(Long id); //ID 데이터 조회
+
+    Optional<Member> findByUserId(String userId);
 
     Optional<Member> findByPassword(String password); //Password 데이터 조회
 
