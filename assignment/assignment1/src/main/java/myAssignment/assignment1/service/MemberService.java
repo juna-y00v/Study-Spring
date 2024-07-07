@@ -4,8 +4,7 @@ import myAssignment.assignment1.domain.Member;
 import myAssignment.assignment1.domain.MemberVo;
 
 public interface MemberService {
+    void login(Member member);
 
-    void login(MemberVo memberVo);
-
-    Long join (MemberVo memberVo);
+    Long join (Member member);
 }
