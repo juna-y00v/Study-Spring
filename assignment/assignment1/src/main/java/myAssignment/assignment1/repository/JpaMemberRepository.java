@@ -2,7 +2,9 @@ package myAssignment.assignment1.repository;
 
 import jakarta.persistence.EntityManager;
 import myAssignment.assignment1.domain.Member;
+import org.springframework.context.annotation.Configuration;
 
+@Configuration
 public class JpaMemberRepository implements MemberRepository{
 
     private final EntityManager em;
