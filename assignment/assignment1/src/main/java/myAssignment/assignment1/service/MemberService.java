@@ -2,7 +2,9 @@ package myAssignment.assignment1.service;
 
 import myAssignment.assignment1.domain.Member;
 import myAssignment.assignment1.repository.MemberRepository;
+import org.springframework.transaction.annotation.Transactional;
 
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
