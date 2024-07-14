@@ -3,7 +3,7 @@ package myAssignment.assignment1.controller;
 import org.springframework.stereotype.Controller;
 
 @Controller
-public class MemberConroller {
+public class MemberController {
 
     private MemberRepository member;
 
