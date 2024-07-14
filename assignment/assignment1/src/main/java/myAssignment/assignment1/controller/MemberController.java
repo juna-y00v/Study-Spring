@@ -7,7 +7,7 @@ public class MemberController {
 
     private MemberRepository member;
 
-    public MemberConroller(MemberRepository member) {
+    public MemberController(MemberRepository member) {
         this.member = member;
     }
 
