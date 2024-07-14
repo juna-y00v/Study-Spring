@@ -1,7 +1,9 @@
 package myAssignment.assignment1.controller;
 
+import myAssignment.assignment1.domain.Member;
 import myAssignment.assignment1.repository.MemberRepository;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
@@ -17,4 +19,5 @@ public class MemberController {
     public String login() {
         return "login";
     }
+
 }
